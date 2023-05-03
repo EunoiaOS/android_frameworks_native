@@ -218,6 +218,7 @@ cc_library_shared {
         "libbufferhub",
         "libbufferhubqueue", // TODO(b/70046255): Remove this once BufferHub is integrated into libgui.
         "libpdx_default_transport",
+        "libGLESv2",
     ],
 
     export_shared_lib_headers: [
@@ -350,7 +351,6 @@ cc_defaults {
         "libbase",
         "libcutils",
         "libEGL",
-        "libGLESv2",
         "libhidlbase",
         "liblog",
         "libnativewindow",
